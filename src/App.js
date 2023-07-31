@@ -1,6 +1,7 @@
 import { Navbar, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Index from "./components/heading/index";
 
 const App = () => {
   return (
@@ -105,6 +106,7 @@ const App = () => {
           </Nav>
         </Container>
       </Navbar>
+      <Index/>
     </div>
   );
 }
