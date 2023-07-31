@@ -27,17 +27,16 @@ const App = () => {
             <Nav>
             <NavDropdown
               id="nav-dropdown-dark-example"
-              title="Dropdown"
+              title="Exchange"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Exchange</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+               Exchange Live Price
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.3">Exchange Ticker</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Exchange Fluid
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
@@ -45,51 +44,61 @@ const App = () => {
              <Nav>
             <NavDropdown
               id="nav-dropdown-dark-example"
-              title="Dropdown"
+              title="Markets"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Markets</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Markets Line
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.3">Markets Bar</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Markets Overview
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                Markets Screener
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                Markets Crypto
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
             <NavDropdown
               id="nav-dropdown-dark-example"
-              title="Dropdown"
+              title="Dashboard"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Wallet
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Settings</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
             <NavDropdown
               id="nav-dropdown-dark-example"
-              title="Dropdown"
+              title="Others"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Technical Analysis</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Cross Rates
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Symbol Info</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Heat Map
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                Sign in
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                Sign up
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                404
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
