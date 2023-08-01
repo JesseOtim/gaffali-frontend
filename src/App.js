@@ -1,7 +1,8 @@
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Heading from "./components/heading/index";
+
 
 const App = () => {
   return (
@@ -105,6 +106,8 @@ const App = () => {
           </Nav>
           </Nav>
         </Container>
+        <Button variant="outline-danger" style={{marginRight:'10px', fontWeight:'bold'}}>Sign in</Button>{' '}
+        <Button variant="success" style={{marginRight:'20px', paddingLeft:'10px', paddingRight:'15px', fontWeight:'bold', color:'white'}}>Get started</Button>{' '}
       </Navbar>
       <Heading/>
     </div>
