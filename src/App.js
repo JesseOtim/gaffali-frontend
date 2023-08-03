@@ -137,7 +137,9 @@ const App = () => {
           Get started
         </Button>{" "}
       </Navbar>
+
       <Heading />
+      
       <InputGroup
         className="mb-3"
         style={{ width: "760px", marginLeft: "300px", marginTop: "40px" }}
@@ -303,6 +305,12 @@ const App = () => {
         </Row>
       </Container>
       <hr className="divider"/> {/* The horizontal line (divider) */}
+
+      <Container fluid="md">
+      <Row>
+        <Col>1 of 1</Col>
+      </Row>
+    </Container>
     </div>
   );
 };
