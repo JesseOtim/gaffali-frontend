@@ -1,7 +1,9 @@
-import { Navbar, Nav, Button, InputGroup, Form } from "react-bootstrap";
+import { Navbar, Nav, Button, InputGroup, Form, Row, Col } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Heading from "./components/heading/index";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleCheck} from '@fortawesome/free-solid-svg-icons';
 
 
 const App = () => {
@@ -9,7 +11,7 @@ const App = () => {
     <div className="App">
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home" style={{fontWeight:'bold'}}><span style = {{color:'darkgreen'}} >|</span><span style={{color:'orangered'}}>|</span><span style={{color:'grey'}}>|</span> GAFFALI</Navbar.Brand>
+          <Navbar.Brand href="#home" style={{fontWeight:'bold'}}><span style = {{color:'red'}} >|</span><span style={{color:'green'}}>|</span><span style={{color:'yellow'}}>|</span> GAFFALI</Navbar.Brand>
           <Nav className="me-auto">
             <Nav>
               <NavDropdown
@@ -106,8 +108,8 @@ const App = () => {
           </Nav>
           </Nav>
         </Container>
-        <Button variant="outline-danger" style={{marginRight:'10px', fontWeight:'bold'}}>Sign in</Button>{' '}
-        <Button variant="success" style={{marginRight:'20px', paddingLeft:'10px', paddingRight:'15px', fontWeight:'bold', color:'white'}}>Get started</Button>{' '}
+        <Button variant="outline-danger" style={{marginRight:'5px', fontWeight:'bold'}}>Sign in</Button>{' '}
+        <Button variant="success" style={{marginRight:'25px', paddingLeft:'5px', paddingRight:'5px', fontWeight:'bold', color:'white'}}>Get started</Button>{' '}
       </Navbar>
       <Heading/>
       <InputGroup className="mb-3"style={{width:'760px', marginLeft:'300px',marginTop:'40px'}}>
@@ -120,6 +122,26 @@ const App = () => {
           Get Started
         </Button>
       </InputGroup>
+
+      <Container>
+      <Row>
+        <Col>
+        <h1>The most advance and secure cryptocurrency platform.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto, nisi illo nulla alias fugiat repudiandae unde ab maxime placeat facere, dicta deleniti ipsam animi expedita quam minus perferendis veniam?</p>
+        <ul style={{listStyle:'none'}}>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Live Technical Analysis</li>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Live Market Data</li>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Live Cryptocurrency Price</li>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Deposit & Withdraw</li>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Buy & Sell</li>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Coin Listing</li>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Manage Wallets</li>
+          <li style={{marginBottom:'20px'}}><FontAwesomeIcon icon={faCircleCheck} style={{color:'darkgreen'}}/> Market depth</li>
+        </ul>
+        </Col>
+        <Col>Madooo</Col>
+      </Row>
+    </Container>
     </div>
   );
 }
