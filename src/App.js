@@ -6,10 +6,12 @@ import {
   Form,
   Row,
   Col,
+  Card,
 } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Heading from "./components/heading/index";
+import SubHeading from "./components/subHeading/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import myImage from "../src/assets/sumit-shah.jpg";
@@ -17,9 +19,9 @@ import myImage from "../src/assets/sumit-shah.jpg";
 const App = () => {
   return (
     <div className="App">
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar bg="light" data-bs-theme="light" style={{borderBottom:'1px solid grey'}}>
         <Container>
-          <Navbar.Brand href="#home" style={{ fontWeight: "bold" }}>
+          <Navbar.Brand href="#home" style={{ fontWeight: "bold", color:"black" }}>
             <span style={{ color: "red" }}>|</span>
             <span style={{ color: "green" }}>|</span>
             <span style={{ color: "yellow" }}>|</span> GAFFALI
@@ -137,9 +139,7 @@ const App = () => {
           Get started
         </Button>{" "}
       </Navbar>
-
       <Heading />
-      
       <InputGroup
         className="mb-3"
         style={{ width: "760px", marginLeft: "300px", marginTop: "40px" }}
@@ -238,10 +238,8 @@ const App = () => {
           </Col>
         </Row>
       </Container>
-
       {/* container 2 */}
-
-      <Container fluid style={{ marginTop: "80px", marginBottom:'100px'}}>
+      <Container fluid style={{ marginTop: "80px", marginBottom: "100px" }}>
         <Row>
           <Col>
             <div>
@@ -304,13 +302,49 @@ const App = () => {
           </Col>
         </Row>
       </Container>
-      <hr className="divider"/> {/* The horizontal line (divider) */}
+      <hr className="divider" /> {/* The horizontal line (divider) */}
+      <SubHeading />
+      <Container fluid="md" style={{marginTop:'70px'}}>
+        <Row>
+          <Col sm>
+            {" "}
+            <Card style={{ width: "18rem", color: '#18214D' }}>
+              <Card.Body>
+                <Card.Title>Security storage</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  quaerat, quidem ut, fugiat blanditiis facere
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-      <Container fluid="md">
-      <Row>
-        <Col>1 of 1</Col>
-      </Row>
-    </Container>
+          <Col sm>
+            {" "}
+            <Card style={{ width: "18rem", color: '#18214D' }}>
+              <Card.Body>
+                <Card.Title>Protected by insurance</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  quaerat, quidem ut, fugiat blanditiis facere
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm>
+            {" "}
+            <Card style={{ width: "18rem", color: '#18214D' }}>
+              <Card.Body>
+                <Card.Title>Industry best practices</Card.Title>
+                <Card.Text>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  quaerat, quidem ut, fugiat blanditiis facere
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
