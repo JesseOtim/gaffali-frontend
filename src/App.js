@@ -1,4 +1,4 @@
-import { Navbar, Nav, Button } from "react-bootstrap";
+import { Navbar, Nav, Button, InputGroup, Form } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Heading from "./components/heading/index";
@@ -110,6 +110,16 @@ const App = () => {
         <Button variant="success" style={{marginRight:'20px', paddingLeft:'10px', paddingRight:'15px', fontWeight:'bold', color:'white'}}>Get started</Button>{' '}
       </Navbar>
       <Heading/>
+      <InputGroup className="mb-3"style={{width:'760px', marginLeft:'300px',marginTop:'40px'}}>
+        <Form.Control
+          placeholder="Enter Your Email"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        style={{paddingTop:'15px', paddingBottom:'15px'}}/>
+        <Button variant="primary" id="button-addon2">
+          Get Started
+        </Button>
+      </InputGroup>
     </div>
   );
 }
