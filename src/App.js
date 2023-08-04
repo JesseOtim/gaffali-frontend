@@ -15,6 +15,7 @@ import SubHeading from "./components/subHeading/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import myImage from "../src/assets/sumit-shah.jpg";
+import Logo from "./assets/GaffaliLOGO.svg";
 
 const App = () => {
   return (
@@ -29,10 +30,7 @@ const App = () => {
             href="#home"
             style={{ fontWeight: "bold", color: "black" }}
           >
-            <span style={{ color: "red" }}>|</span>
-            <span style={{ color: "green" }}>|</span>
-            <span style={{ color: "yellow" }}>|</span>{" "}
-            Gaffali-Merchantile-Exchange
+            <img src={Logo} alt="GaffaliLOGO.svg"></img>
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav>
