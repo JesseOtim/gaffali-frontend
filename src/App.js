@@ -17,6 +17,7 @@ import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import myImage from "../src/assets/sumit-shah.jpg";
 import Logo from "./assets/GaffaliLOGO.svg";
 
+
 const App = () => {
   return (
     <div className="App">
@@ -575,14 +576,15 @@ const App = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid>
+      <Container fluid style={{backgroundColor:"Darkgreen", color:'white', fontWeight:'Bold', marginTop:'100px', height:'360px'}}>
         <Row style={{textAlign:"center"}}>
-          <Col><h2>Become part of a global community of people who have <br></br>found their path to the crypto world with Crypo</h2></Col>
+          <Col><h2 style={{marginTop:'90px'}}>Become part of a global community of people who have <br></br>found their path to the crypto world with Crypo</h2></Col>
         </Row>
         <Row style={{textAlign:"center"}}>
-          <Col><Button variant="outline-primary" style={{border:'2px solid darkgreen', display:'inline-block', width: '150px', color:'black'}}>Get started</Button>{' '}</Col>
+          <Col><Button variant="outline-primary" style={{border:'1px solid white', display:'inline-block', width: '150px', color:'white', fontWeight:'Bold', paddingTop:'15px', paddingBottom:'15px',  marginTop:'30px'}}>Get started</Button>{' '}</Col>
         </Row>
       </Container>
+
     </div>
   );
 };
