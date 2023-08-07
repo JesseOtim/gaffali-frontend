@@ -581,7 +581,7 @@ const App = () => {
           <Col><h2 style={{marginTop:'90px'}}>Become part of a global community of people who have <br></br>found their path to the crypto world with Crypo</h2></Col>
         </Row>
         <Row style={{textAlign:"center"}}>
-          <Col><Button variant="outline-primary" style={{border:'1px solid white', display:'inline-block', width: '150px', color:'white', fontWeight:'Bold', paddingTop:'15px', paddingBottom:'15px',  marginTop:'30px'}}>Get started</Button>{' '}</Col>
+          <Col><Button variant="outline-danger" style={{border:'1px solid white', display:'inline-block', width: '150px', color:'white', fontWeight:'Bold', paddingTop:'15px', paddingBottom:'15px',  marginTop:'30px'}}>Get started</Button>{' '}</Col>
         </Row>
       </Container>
 
