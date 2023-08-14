@@ -20,8 +20,8 @@ const App = () => {
   return (
     <div className="App">
       <Navbar
-        bg="light"
-        data-bs-theme="light"
+        bg="dark"
+        data-bs-theme="dark"
         style={{ borderBottom: "1px solid grey" }}
       >
         <Container>
@@ -126,7 +126,7 @@ const App = () => {
         <Button
           variant="success"
           style={{
-            marginRight: "25px",
+            marginRight: "30px",
             paddingLeft: "5px",
             paddingRight: "5px",
             fontWeight: "bold",
