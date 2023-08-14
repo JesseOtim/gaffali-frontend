@@ -16,7 +16,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import myImage from "../src/assets/sumit-shah.jpg";
 
-
 const App = () => {
   return (
     <div className="App">
@@ -30,7 +29,11 @@ const App = () => {
             href="#home"
             style={{ fontWeight: "bold", color: "black" }}
           >
-            <h1 style={{color:"Grey", fontWeight:"bold"}}><span style={{color:"orangered"}}>G</span><span style={{color:"green"}}>M</span><span style={{color:"blue"}}>E</span></h1>
+            <h1 style={{ color: "Grey", fontWeight: "bold" }}>
+              <span style={{ color: "orangered" }}>G</span>
+              <span style={{ color: "green" }}>M</span>
+              <span style={{ color: "orangered" }}>E</span>
+            </h1>
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav>
@@ -55,7 +58,7 @@ const App = () => {
                 menuVariant="dark"
               >
                 <NavDropdown.Item href="#action/3.1">Exchange</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="#action/3.1">
                   Exchange Live Price
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
@@ -74,20 +77,8 @@ const App = () => {
                 menuVariant="dark"
               >
                 <NavDropdown.Item href="#action/3.1">Markets</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Markets Line
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Markets Bar
-                </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">
                   Markets Overview
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
-                  Markets Screener
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
-                  Markets Crypto
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
@@ -575,15 +566,44 @@ const App = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid style={{backgroundColor:"Darkgreen", color:'white', fontWeight:'Bold', marginTop:'100px', height:'360px'}}>
-        <Row style={{textAlign:"center"}}>
-          <Col><h2 style={{marginTop:'90px'}}>Become part of a global community of people who have <br></br>found their path to the crypto world with Crypo</h2></Col>
+      <Container
+        fluid
+        style={{
+          backgroundColor: "Darkgreen",
+          color: "white",
+          fontWeight: "Bold",
+          marginTop: "100px",
+          height: "360px",
+        }}
+      >
+        <Row style={{ textAlign: "center" }}>
+          <Col>
+            <h2 style={{ marginTop: "90px" }}>
+              Become part of a global community of people who have <br></br>
+              found their path to the crypto world with Crypo
+            </h2>
+          </Col>
         </Row>
-        <Row style={{textAlign:"center"}}>
-          <Col><Button variant="outline-danger" style={{border:'1px solid white', display:'inline-block', width: '150px', color:'white', fontWeight:'Bold', paddingTop:'15px', paddingBottom:'15px',  marginTop:'30px'}}>Get started</Button>{' '}</Col>
+        <Row style={{ textAlign: "center" }}>
+          <Col>
+            <Button
+              variant="outline-danger"
+              style={{
+                border: "1px solid white",
+                display: "inline-block",
+                width: "150px",
+                color: "white",
+                fontWeight: "Bold",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginTop: "30px",
+              }}
+            >
+              Get started
+            </Button>{" "}
+          </Col>
         </Row>
       </Container>
-
     </div>
   );
 };
