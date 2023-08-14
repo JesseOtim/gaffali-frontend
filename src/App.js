@@ -20,8 +20,8 @@ const App = () => {
   return (
     <div className="App">
       <Navbar
-        bg="dark"
-        data-bs-theme="dark"
+        bg="light"
+        data-bs-theme="light"
         style={{ borderBottom: "1px solid grey" }}
       >
         <Container>
