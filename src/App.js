@@ -15,6 +15,7 @@ import SubHeading from "./components/subHeading/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import myImage from "../src/assets/sumit-shah.jpg";
+import ProductScroller from "./components/productScroller";
 
 const App = () => {
   return (
@@ -153,6 +154,11 @@ const App = () => {
           Get Started
         </Button>
       </InputGroup>
+      {/* Widget Starts*/}
+      <ProductScroller />
+      {/* Widget Ends */}
+
+
       <Container fluid style={{ marginTop: "80px" }}>
         <Row>
           <Col>
