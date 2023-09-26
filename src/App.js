@@ -11,6 +11,7 @@ import {
   Container,
   NavDropdown,
 } from "react-bootstrap";
+import './App.css'; // Import your CSS file with theme classes
 import Heading from "./components/heading/index";
 import SubHeading from "./components/subHeading/index";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

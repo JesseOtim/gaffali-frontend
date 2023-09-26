@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #222; /* Set your dark background color here */
+  color: #fff; /* Set your dark text color here */
 }
+
+/* Light Theme */
+.light-theme {
+  background-color: #fff; /* Set your light background color here */
+  color: #333; /* Set your light text color here */
+}
+
+
