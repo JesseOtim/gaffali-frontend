@@ -156,7 +156,7 @@ const App = () => {
 
       </Navbar>
        {/* Add a button to toggle the theme */}
-       <button variant="success" onClick={toggleTheme} style={{border:"none", borderRadius:"15px"}}>
+       <button variant="primary" onClick={toggleTheme} style={{border:"none", borderRadius:"15px", backgroundColor:"orangered", paddingLeft:"30px", paddingRight:"30px", paddingTop:"8px", paddingBottom:"8px", marginLeft:"30px", marginTop:"30px", fontSize:"18px", fontWeight:"bold" }}>
         {isDarkMode ? "Light" : "Dark"}
       </button>
 
