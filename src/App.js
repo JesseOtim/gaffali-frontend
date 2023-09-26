@@ -156,12 +156,15 @@ const App = () => {
 
       </Navbar>
        {/* Add a button to toggle the theme */}
-       <button variant="primary" onClick={toggleTheme}>
-        {isDarkMode ? "Light Mode" : "Dark Mode"}
+       <button variant="success" onClick={toggleTheme} style={{border:"none", borderRadius:"15px"}}>
+        {isDarkMode ? "Light" : "Dark"}
       </button>
 
+     
+
+
       {/* Heading starts here */}
-      <Heading />
+      <Heading/>
       {/* Heading ends here */}
       <InputGroup
         className="mb-3"
