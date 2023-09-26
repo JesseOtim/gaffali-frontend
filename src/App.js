@@ -18,6 +18,19 @@ import myImage from "../src/assets/sumit-shah.jpg";
 import ProductScroller from "./components/productScroller";
 
 const App = () => {
+
+  // Step 1: Create a state variable to track the theme
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Step 2: Create a function to toggle the theme
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
+  // Step 3: Conditionally apply CSS classes or styles based on the theme
+  const themeClassName = isDarkMode ? 'dark-theme' : 'light-theme';
+
+  
   return (
     <div className="App">
       <Navbar
