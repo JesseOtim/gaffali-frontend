@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import {
   Navbar,
   Nav,
@@ -19,20 +20,21 @@ import ProductScroller from "./components/productScroller";
 
 const App = () => {
 
-  // Step 1: Create a state variable to track the theme
+  
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Step 2: Create a function to toggle the theme
+  
   const toggleTheme = () => {
+    console.log('Button clicked');
     setIsDarkMode(!isDarkMode);
   };
 
-  // Step 3: Conditionally apply CSS classes or styles based on the theme
+  
   const themeClassName = isDarkMode ? 'dark-theme' : 'light-theme';
 
-  
+
   return (
-    <div className="App">
+    <div className={`App ${themeClassName}`}>
       <Navbar
         bg="light"
         data-bs-theme="light"
@@ -146,10 +148,17 @@ const App = () => {
             fontWeight: "bold",
             color: "white",
           }}
+          
         >
           Get started
         </Button>{" "}
+
       </Navbar>
+       {/* Add a button to toggle the theme */}
+       <button variant="primary" onClick={toggleTheme}>
+        {isDarkMode ? "Light Mode" : "Dark Mode"}
+      </button>
+
       {/* Heading starts here */}
       <Heading />
       {/* Heading ends here */}
