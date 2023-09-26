@@ -46,7 +46,7 @@ const App = () => {
             <h1 style={{ color: "Grey", fontWeight: "bold" }}>
               <span style={{ color: "orangered" }}>G</span>
               <span style={{ color: "green" }}>M</span>
-              <span style={{ color: "orangered" }}>E</span>
+              <span style={{ color: "orange" }}>E</span>
             </h1>
           </Navbar.Brand>
           <Nav className="me-auto">
