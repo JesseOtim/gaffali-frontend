@@ -48,6 +48,7 @@ const ScrollerContainer = styled.div`
   border-bottom: 1px solid grey; /* Add bottom border */
   display: flex; /* Align items center */
   align-items: center; /* Align items center */
+  margin-top: 20px;
 `;
 
 
@@ -61,63 +62,63 @@ const ProductItem = styled.div`
   display: inline-block;
   width: 150px;
   height: 74px;
-  background-color: #f2f2f2;
+  background-color: transparent;
   margin-right: 1px;
   border-right: 1px solid #f2f2f2;
 `;
   return (
     <ScrollerContainer>
       <ScrollingContent>
-        <ProductItem><p style={{color:'green'}}>Maize</p><h6>ff</h6></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Rice</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cocoa</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Coffee</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Beans</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Matooke</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Pigeon peas</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cow peas</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Posho</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Millet</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Sorghum</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Flour</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Chicken</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cotton</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Eggs</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Bananas</p></ProductItem>
+        <ProductItem><p style={{color:'Darkgreen', fontWeight:'bold'}}>Maize</p><h6>ff</h6></ProductItem>
+        <ProductItem><p style={{color:'orangered', fontWeight:'bold'}}>Rice</p></ProductItem>
+        <ProductItem><p style={{color:'blue', fontWeight:'bold'}}>Cocoa</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Coffee</p></ProductItem>
+        <ProductItem><p style={{color:'orangered', fontWeight:'bold'}}>Beans</p></ProductItem>
+        <ProductItem><p style={{color:'blue', fontWeight:'bold'}}>Matooke</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Pigeon peas</p></ProductItem>
+        <ProductItem><p style={{color:'orangered', fontWeight:'bold'}}>Cow peas</p></ProductItem>
+        <ProductItem><p style={{color:'blue', fontWeight:'bold'}}>Posho</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Millet</p></ProductItem>
+        <ProductItem><p style={{color:'orangered', fontWeight:'bold'}}>Sorghum</p></ProductItem>
+        <ProductItem><p style={{color:'blue', fontWeight:'bold'}}>Flour</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Chicken</p></ProductItem>
+        <ProductItem><p style={{color:'orangered', fontWeight:'bold'}}>Cotton</p></ProductItem>
+        <ProductItem><p style={{color:'blue', fontWeight:'bold'}}>Eggs</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Bananas</p></ProductItem>
         {/* Seamless loop starts */}
-        <ProductItem><p style={{color:'green'}}>Maize</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Rice</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cocoa</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Coffee</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Beans</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Matooke</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Pigeon peas</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cow peas</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Posho</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Millet</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Sorghum</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Flour</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Chicken</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cotton</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Eggs</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Bananas</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Maize</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Rice</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Cocoa</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Coffee</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Beans</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Matooke</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Pigeon peas</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Cow peas</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Posho</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Millet</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Sorghum</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Flour</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Chicken</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Cotton</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Eggs</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Bananas</p></ProductItem>
         {/* Seamless loop starts */}
-        <ProductItem><p style={{color:'green'}}>Maize</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Rice</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cocoa</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Coffee</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Beans</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Matooke</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Pigeon peas</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cow peas</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Posho</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Millet</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Sorghum</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Flour</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Chicken</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Cotton</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Eggs</p></ProductItem>
-        <ProductItem><p style={{color:'green'}}>Bananas</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Maize</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Rice</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Cocoa</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Coffee</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Beans</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Matooke</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Pigeon peas</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Cow peas</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Posho</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Millet</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Sorghum</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Flour</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Chicken</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Cotton</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Eggs</p></ProductItem>
+        <ProductItem><p style={{color:'green', fontWeight:'bold'}}>Bananas</p></ProductItem>
        
       
     
